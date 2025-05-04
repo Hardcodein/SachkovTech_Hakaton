@@ -4,7 +4,6 @@ public class WareHouseDbContext : DbContext
 {
     private readonly IConfiguration _configuration;
 
-    public DbSet<Client> Clients => Set<Client>();
     public DbSet<Product> Products => Set<Product>();
     public DbSet<Inventory> Inventories => Set<Inventory>();
     public DbSet<Provider> Providers => Set<Provider>();
