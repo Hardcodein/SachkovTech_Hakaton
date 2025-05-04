@@ -9,7 +9,7 @@ public class WareHouseDbContext : DbContext
     public DbSet<Provider> Providers => Set<Provider>();
     public DbSet<Shipment> Shipments => Set<Shipment>();
     public DbSet<ShipmentItem> ShipmentItems => Set<ShipmentItem>();
-    public DbSet<Domain.Models.Entities.WareHouse> JwtTokenModels => Set<Domain.Models.Entities.WareHouse>();
+    public DbSet<Domain.Models.Entities.WareHouse> WareHouses => Set<Domain.Models.Entities.WareHouse>();
 
     public WareHouseDbContext(IConfiguration configuration)
     {
